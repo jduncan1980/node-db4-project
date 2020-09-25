@@ -39,7 +39,7 @@ exports.up = function (knex) {
 				.onDelete('CASCADE');
 			tbl.float('ingredient_quantity', 2).notNullable();
 			tbl.string('ingredient_measurement', 128);
-			tbl.primary(['recipe_id', 'ingredient_id'], 'recipe_ingredients_id');
+			tbl.primary(['recipe_id', 'ingredient_id']);
 		});
 };
 

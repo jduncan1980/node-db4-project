@@ -16,6 +16,13 @@ exports.seed = function (knex) {
 					'Put 2 halves together, cut diagonally down the middle, and serve with a glass of milk',
 				recipe_id: 2,
 			},
+			{ step: 'Heat Butter in pan over medium heat.', recipe_id: 3 },
+			{ step: 'Place cheese between bread slices.', recipe_id: 3 },
+			{
+				step: 'Fry bread until golden brown then flip and repeat.',
+				recipe_id: 3,
+			},
+			{ step: 'Serve with cole slaw.', recipe_id: 3 },
 		]);
 	});
 };

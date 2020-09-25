@@ -8,6 +8,7 @@ exports.seed = function (knex) {
 			{ ingredient_name: 'Bread' },
 			{ ingredient_name: 'Peanut Butter' },
 			{ ingredient_name: 'Jelly' },
+			{ ingredient_name: 'Cheese' },
 		]);
 	});
 };

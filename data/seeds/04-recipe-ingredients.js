@@ -33,6 +33,24 @@ exports.seed = function (knex) {
 				ingredient_quantity: 1,
 				ingredient_measurement: 'TBLSPN',
 			},
+			{
+				recipe_id: 3,
+				ingredient_id: 2,
+				ingredient_quantity: 1,
+				ingredient_measurement: 'TBLSPN',
+			},
+			{
+				recipe_id: 3,
+				ingredient_id: 4,
+				ingredient_quantity: 2,
+				ingredient_measurement: 'Slices',
+			},
+			{
+				recipe_id: 3,
+				ingredient_id: 7,
+				ingredient_quantity: 1.5,
+				ingredient_measurement: 'Oz.',
+			},
 		]);
 	});
 };
